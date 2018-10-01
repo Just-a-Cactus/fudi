@@ -55,12 +55,17 @@ textarea {}
 
 
 .ba-first-section {
-	background: url(../img/first-bg.jpg) no-repeat center;
+	background-image: linear-gradient(to top, #725a7c 0%, transparent 240px), url(../img/first-bg.jpg);
 	background-size: cover;
 	background-color: rgb(114, 10, 69);
 	color: white;
 	padding-top: 352px;
 	padding-bottom: 240px;
+	text-align: center;
+}
+
+.ba-shadow {
+	background-image: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(255, 255, 255, .5));
 }
 
 .ba-header-bar {
@@ -106,7 +111,6 @@ textarea {}
 }
 
 .ba-menu-list a:hover {
-	/* text-decoration: underline; */
 	border-bottom: 2px solid white;
 }
 
@@ -116,10 +120,6 @@ textarea {}
 	letter-spacing: 0.05em;
 	opacity: .7;
 	text-shadow: 0px 1px 40px rgba(1, 1, 1, .55);
-}
-
-.ba-first-section {
-	text-align: center;
 }
 
 p,
