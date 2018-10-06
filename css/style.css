@@ -394,6 +394,8 @@ p.ba-sec2-align3 {
 .ba-footer-flex {
 	display: flex;
 	justify-content: space-between;
+	padding-top: 42px;
+	padding-bottom: 41px;
 }
 
 .ba-footer-p1 {
@@ -404,8 +406,6 @@ p.ba-sec2-align3 {
 .ba-footer-p2 {
 	text-transform: uppercase;
 	color: #8b8b8b;
-	padding-top: 42px;
-	padding-bottom: 41px;
 	letter-spacing: 0.2em;
 	margin-right: -4px;
 }
